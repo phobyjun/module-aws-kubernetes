@@ -6,7 +6,7 @@ output "eks_cluster_name" {
   value = aws_eks_cluster.js-eks-cluster.name
 }
 
-output "eks_cluster_certificate_date" {
+output "eks_cluster_certificate_data" {
   value = aws_eks_cluster.js-eks-cluster.certificate_authority.0.data
 }
 
